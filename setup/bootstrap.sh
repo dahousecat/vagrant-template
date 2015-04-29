@@ -12,11 +12,11 @@ debconf-set-selections <<< 'mysql-server-5.5 mysql-server/root_password_again pa
 
 
 # Install packages
-#apt-get update
+apt-get update
 
-#apt-get install -q -f -y --force-yes -o Dpkg::Options::='--force-confdef' -o Dpkg::Options::='--force-confold' mysql-server-5.5 php5-mysql libsqlite3-dev apache2 php5 libapache2-mod-php5 php5-dev build-essential php-pear ruby1.9.1-dev php5-mcrypt php5-curl git php5-gd imagemagick unzip php5-xdebug postfix
+apt-get install -q -f -y --force-yes -o Dpkg::Options::='--force-confdef' -o Dpkg::Options::='--force-confold' mysql-server-5.5 php5-mysql libsqlite3-dev apache2 php5 libapache2-mod-php5 php5-dev build-essential php-pear ruby1.9.1-dev php5-mcrypt php5-curl git php5-gd imagemagick unzip php5-xdebug postfix
 
-#apt-get -y remove puppet chef chef-zero puppet-common
+apt-get -y remove puppet chef chef-zero puppet-common
 
 # Set timezone
 echo "Australia/Melbourne" | tee /etc/timezone
