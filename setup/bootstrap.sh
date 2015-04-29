@@ -43,6 +43,9 @@ cp /vagrant/setup/files/xdebug.ini /etc/apache2/mods-available/xdebug.ini
 # Create .my.cnf - why doesn't this line work?
 cp /vagrant/setup/files/my.cnf ~/.my.cnf
 
+# SSH config
+cp /vagrant/setup/files/ssh/config ~/.ssh
+
 a2ensite host
 a2dissite 000-default
 
