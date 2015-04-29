@@ -1,0 +1,8 @@
+#!/bin/bash
+
+SITE_NAME="example.local"
+WEBROOT_PATH="/vagrant/www"
+CMS="drupal" # or wordpress
+
+echo "I am the config file"
+echo "The site name is $SITE_NAME"

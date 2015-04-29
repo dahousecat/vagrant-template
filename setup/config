@@ -1,0 +1,6 @@
+#!/bin/bash
+
+SITE_NAME="example.local"
+WEBROOT_PATH="/vagrant/www"
+CMS="drupal" # or wordpress
+
